@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>biblioteka</name>
+	<creationDate>03 2012</creationDate>
+	<author>Tomasz Kaniowski</author>
+	<authorEmail>tomasz.kaniowski@blueroom.pl</authorEmail>
+	<authorUrl>http://www.blueroom.pl</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Accessible template for Joomla 1.5</description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+
+	</files>
+
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>menu</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>logowanie</position>
+		<position>debug</position>
+		<position>stopka</position>
+	</positions>
+	<params>
+	</params>
+</extension>

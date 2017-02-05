@@ -1,0 +1,170 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI','Arial'
+}
+img {
+  border: 0;
+}
+a{
+  text-decoration: none;
+  color: #666;
+}
+a:hover{
+  color: #444;
+}
+h4{
+  color: #666;
+  margin-bottom: 5px;
+}
+#all{
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+}
+#top{
+  float: left;
+  width: 900px;
+}
+
+#top h1{
+  display: block;
+  text-indent: -2000px;
+  background: url('img/logo.png') no-repeat;
+  width: 220px;
+  height: 70px;
+  float: left;
+}
+#menu{
+  float: left;
+  width: 900px;
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li{
+  float: left;
+}
+#top .menu{
+  float: right;
+}
+#top .menu li a{
+  float: left;
+  /*background: url('img/btn_big_idle.png') no-repeat;*/
+  width: 134px;
+  height: 32px;
+  padding-top: 8px;
+  font-family: 'Segoe UI','Arial';
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+  background: url('img/btn_topmenu_idle.png') no-repeat;
+}
+#top .menu li a:hover{
+  background: url('img/btn_topmenu_hover.png') no-repeat;
+}
+#menu .menu li a{
+  float: left;
+  /*background: url('img/btn_big_idle.png') no-repeat;*/
+  width: 208px;
+  height: 32px;
+  padding-top: 8px;
+  margin-right: 10px;
+  font-family: 'Segoe UI','Arial';
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+}
+#current a{
+  background: url('img/btn_big_idle.png') no-repeat;
+  color: #000;
+  font-size: 18px;
+  padding-top: 6px;
+  height: 34px;
+}
+#menu .menu li a:hover{
+  background: url('img/btn_big_hover.png') no-repeat;
+}
+#stopka{
+  clear: both;
+}
+#comp{
+  float:left;
+  width: 714px;
+  padding-left: 90px;
+  padding-right: 86px;
+  padding-top: 10px;
+  height: 619px;
+  background: url('img/book.jpg') no-repeat;
+}
+.column{
+  float: left;
+  width: 340px;
+  margin-left: 17px;
+  min-height: 510px;
+}
+.column tr{
+  height: 30px;
+}
+.column table{
+  border-collapse: collapse;
+}
+.column td{
+  position: relative;
+  z-index: 50;
+}
+.bibl_td{
+  overflow: hidden;
+  height: 20px;
+  display: block;
+  z-index: 100;
+}
+.bibl_td a{
+  color: #000;
+}
+.bibl_td a:hover{
+  color: #333;
+}
+.bibl_tr1{
+  background: #dac39c;
+}
+.bibl_tytul{
+  width: 200px;
+}
+.bibl_autor .bibl_drukarnia{
+  width: 96px;
+}
+.bibl_rok{
+  width: 35px;
+}
+
+.stronicowanie ul{
+  list-style-type: none;
+  width: 660px;
+  text-align: center;
+  position:relative;
+  top: 20px;
+  clear: both;
+}
+.stronicowanie li{
+  margin: 4px;
+  display: inline;
+}
+.logowanie{
+
+}
+.logowanie input[type="text"],.logowanie input[type="password"]{
+  border: 1px #f00 solid;
+  height: 40px;
+  width: 300px;
+  border: 1px solid #ddd;
+  -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; /* pozosta³e przegl±darki */ 
+}
+.szukaj{
+  width: 40px;
+  height: 40px;
+  background: url('img/btn_lupa_idle.png') no-repeat;
+  border: 0;
+}
